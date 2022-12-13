@@ -54,12 +54,12 @@ var questionsArray = [q1, q2, q3, q4, q5];
 
 
 function game() {
-  for (var i = 0; i <=4; i++)
+  for (var i = 0; i <5; i++){
     var currentQuestions = questionsArray[i];
   play(currentQuestions.question, currentQuestions.answer)
 }
 
-
+}
 //scores
 var highScores = [
   {
